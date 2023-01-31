@@ -32,3 +32,6 @@ let desc = document.querySelector('.description')
 sliderMain.on('slideChange', e => {
 	sliderMain.activeIndex > 0 ? desc.classList.add('hidden') : desc.classList.remove('hidden')
 })
+
+
+
